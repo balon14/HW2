@@ -1,7 +1,4 @@
-Внесено изменение в основной файл "main.py".
+# An example of ML Application with the pretrained model and test.
+An example of English text tone detection with Hugging Face library.
 
-Cообщение "Hello_world" заменено на "i like to move it"
-
-Изменен текстовый файл на новый.
-
-Внесены изменения вторым контибутором.
+Tests GitHub Actions
