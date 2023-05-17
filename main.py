@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from transformers import pipeline
 from pydantic import BaseModel
+import streamlit as st
 
 
 # Заголовок страницы
