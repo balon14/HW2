@@ -3,6 +3,14 @@ from transformers import pipeline
 from pydantic import BaseModel
 
 
+# Заголовок страницы
+st.title("A Simple Streamlit Web App")
+
+# Получение имени пользователя и вывод приветствия
+text = st.text_input("Enter your name", "")
+st.write(f"Hello {text}!")
+
+
 class Item(BaseModel):
     text: str
 
